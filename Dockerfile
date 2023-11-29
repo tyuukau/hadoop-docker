@@ -1,6 +1,5 @@
-FROM ubuntu:latest
+FROM docker.io/amd64/ubuntu:14.04
 
-MAINTAINER qducnguyen
 #environment variables for changing JDK, HADOOP versions and directories
 ENV JDK_TAR_NAME=jdk-8u202-linux-x64.tar.gz
 ENV HADOOP_TAR_NAME=hadoop-3.3.6.tar.gz
